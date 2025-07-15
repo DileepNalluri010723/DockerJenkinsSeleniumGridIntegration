@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-07-14T23:52:51 IST" name="Suite" finished-at="2025-07-14T23:53:25 IST" duration-ms="33655">
+    <groups>
+    </groups>
+    <test started-at="2025-07-14T23:52:51 IST" name="Test" finished-at="2025-07-14T23:53:25 IST" duration-ms="33655">
+      <class name="docker.ChromeTest1">
+        <test-method signature="test()[pri:0, instance:docker.ChromeTest1@28701274]" started-at="2025-07-14T23:53:06 IST" name="test" finished-at="2025-07-14T23:53:15 IST" duration-ms="8911" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+      </class> <!-- docker.ChromeTest1 -->
+      <class name="docker.Setup_DockerGrid">
+        <test-method is-config="true" signature="startDockerGrid()[pri:0, instance:docker.Setup_DockerGrid@4802796d]" started-at="2025-07-14T23:52:51 IST" name="startDockerGrid" finished-at="2025-07-14T23:53:06 IST" duration-ms="15025" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDockerGrid -->
+        <test-method is-config="true" signature="stopDockerGrid()[pri:0, instance:docker.Setup_DockerGrid@4802796d]" started-at="2025-07-14T23:53:20 IST" name="stopDockerGrid" finished-at="2025-07-14T23:53:25 IST" duration-ms="5029" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopDockerGrid -->
+      </class> <!-- docker.Setup_DockerGrid -->
+      <class name="docker.ChromeTest3">
+        <test-method signature="test()[pri:0, instance:docker.ChromeTest3@13c9d689]" started-at="2025-07-14T23:53:06 IST" name="test" finished-at="2025-07-14T23:53:20 IST" duration-ms="13556" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+      </class> <!-- docker.ChromeTest3 -->
+      <class name="docker.ChromeTest2">
+        <test-method signature="test()[pri:0, instance:docker.ChromeTest2@3754a4bf]" started-at="2025-07-14T23:53:06 IST" name="test" finished-at="2025-07-14T23:53:09 IST" duration-ms="3213" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+      </class> <!-- docker.ChromeTest2 -->
+      <class name="docker.FirefoxTest4">
+        <test-method signature="test()[pri:0, instance:docker.FirefoxTest4@36fc695d]" started-at="2025-07-14T23:53:06 IST" name="test" finished-at="2025-07-14T23:53:17 IST" duration-ms="11112" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+      </class> <!-- docker.FirefoxTest4 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
